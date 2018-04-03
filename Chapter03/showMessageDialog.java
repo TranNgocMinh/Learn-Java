@@ -6,7 +6,7 @@ public class MyMainClass {
 		// TODO Auto-generated method stub
 		
 		JOptionPane.showMessageDialog(null, "Hello World!", "Greetings", JOptionPane.ERROR_MESSAGE);
-    JOptionPane.showMessageDialog(null, "Hello World!", "Greetings",JOptionPane.INFORMATION_MESSAGE);
+    		JOptionPane.showMessageDialog(null, "Hello World!", "Greetings",JOptionPane.INFORMATION_MESSAGE);
 
 	}
 
