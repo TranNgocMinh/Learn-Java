@@ -7,4 +7,13 @@ public static void main(String[] args)  {
 		numseq += " " + i;
 		}
 		System.out.println("The number sequence is "+ numseq);
-	}
+}
+//using for in collections 
+public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+		int[] fibarray = new int[] { 0, 1, 1, 2, 3, 5, 8, 13 };
+		for (int element : fibarray)
+		{
+		System.out.print(" "+ element);
+		}
+}
