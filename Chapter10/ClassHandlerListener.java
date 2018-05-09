@@ -40,8 +40,6 @@ public class MainClass extends JFrame{
 		btn2.addActionListener(new Button2Handler());
 		// Thiết lập nội dung hiện tại cho panel
 		this.setContentPane(panel);
-		//lắng nghe sự kiện từ button
-		//btnClickMe.addActionListener(this);
 		// thiết lập kích thước cửa sổ
 		this.setSize(640, 480);
 		// thiết lập thao tác đóng cửa sổ
