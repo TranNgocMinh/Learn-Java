@@ -7,6 +7,13 @@ import javax.swing.*;
 
 public class MainClass extends JFrame{
 
+	
+	private JPanel panel;
+	private JLabel label1;
+	private JLabel label2;
+	private JButton btn1;
+	private JButton btn2;
+	
 	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
 		MainClass mainWindow = new MainClass();
@@ -15,20 +22,20 @@ public class MainClass extends JFrame{
 	public MainClass() {
 		
 		// tạo một đối tượng JPanel
-		JPanel panel = new JPanel(new FlowLayout());
+		panel = new JPanel(new FlowLayout());
 		
 		// Thêm một JLabel
-		JLabel label1 = new JLabel("Button 1: ");
+		label1 = new JLabel("Button 1: ");
 		panel.add(label1);
 		//Thêm button 1
-		JButton btn1 = new JButton("Click me!");
+		btn1 = new JButton("Click me!");
 		panel.add(btn1);
 		btn1.addActionListener(new Button1Handler());
 		// Thêm một JLabel
-		JLabel label2 = new JLabel("Button 2: ");
+		label2 = new JLabel("Button 2: ");
 		panel.add(label2);
 		//Thêm button 2
-		JButton btn2 = new JButton("Click me!");
+		btn2 = new JButton("Click me!");
 		panel.add(btn2);
 		btn2.addActionListener(new Button2Handler());
 		// Thiết lập nội dung hiện tại cho panel
