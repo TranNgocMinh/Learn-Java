@@ -34,10 +34,7 @@ public class RectangleProgram extends JFrame
     exitB.addActionListener(ebHandler);
     //Set the title of the window
     setTitle("Area and Perimeter of a Rectangle");
-    //Get the container
-    Container pane = getContentPane();
-    //Set the layout
-    pane.setLayout(new GridLayout(5, 2));
+    JPanel pane = new JPanel(new GridLayout(5, 2));
     //Place the components in the pane
     pane.add(lengthL);
     pane.add(lengthTF);
@@ -49,6 +46,7 @@ public class RectangleProgram extends JFrame
     pane.add(perimeterTF);
     pane.add(calculateB);
     pane.add(exitB);
+    setContentPane(pane);
     //Set the size of the window and display it
     setSize(WIDTH, HEIGHT);
     setVisible(true);
