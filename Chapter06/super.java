@@ -23,8 +23,7 @@ public abstract class Person {
 public class Student extends Person {
 	//constructor
 	public Student() {
- 		//super();
-		//super("Minh",18);	
-}
+ 		//super();//super("Minh",18);	
+	}
 	...
 }
