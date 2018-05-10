@@ -9,4 +9,4 @@
   <h3><a href="">Chapter 08: Packages</a></h3>
   <h3><a href="">Chapter 09: Handling exceptions</a></h3>
   <h3><a href="">Chapter 10: GUI (Graphical User Interface)programming with Swing</a></h3>
-<h3><a href="">Download ebook (Vietnamese PDF Version)</a></h3>
+# <h3><a href="">Download ebook (Vietnamese PDF Version)</a></h3>
