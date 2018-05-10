@@ -1,5 +1,5 @@
-Table of contents
-  Chapter01: Language and programming environment
+# Table of contents
+  # Chapter01: Language and programming environment
   Chapter02: Basic components
   Chapter03: Input/Output
   Chapter04: Operators and Expressions
